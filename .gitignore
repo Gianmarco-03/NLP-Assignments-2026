@@ -1,0 +1,40 @@
+# Virtual environments
+NLP/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (downloaded by the notebooks)
+Data/
+
+# Model weights, embeddings, checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.model
+*.kv
+*.npy
+**/Experiments/results/weights*/
+**/Experiments/legalbert/
+**/Experiments/law2vec/
+gensim-data/
+nltk_data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env

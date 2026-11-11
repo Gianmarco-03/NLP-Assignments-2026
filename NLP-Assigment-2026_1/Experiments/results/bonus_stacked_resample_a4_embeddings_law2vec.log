@@ -1,0 +1,14 @@
+Setting stacked_law2vec_a4_pw | device cuda
+Vocabulary 171,139 | train OOV 1698 -> composed 725, random 973
+            token types  OOV types  OOV types (%)  OOV occurrences (%)
+train              7747       1698          21.92                 3.11
+validation         3410        237           6.95                 1.25
+test               3246        171           5.27                 1.29
+Train clauses 15837 -> 16062 | pos_weight [52.5, 58.9, 96.3, 30.9, 49.5]
+seed 42 | best epoch 19 | val macro F1 0.5352 | 215 s
+seed 1337 | best epoch 17 | val macro F1 0.5154 | 251 s
+seed 2026 | best epoch 16 | val macro F1 0.4990 | 236 s
+validation | threshold   0.5 | macro F1 0.517 ± 0.018
+validation | threshold tuned | macro F1 0.559 ± 0.015
+      test | threshold   0.5 | macro F1 0.603 ± 0.010
+      test | threshold tuned | macro F1 0.607 ± 0.012

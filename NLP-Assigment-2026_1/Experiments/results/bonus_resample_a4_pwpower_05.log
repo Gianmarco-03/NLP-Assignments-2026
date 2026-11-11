@@ -1,0 +1,14 @@
+Setting glove_a4_pw0.5 | device cuda
+Vocabulary 401,522 | train OOV 1520 -> composed 794, random 726
+            token types  OOV types  OOV types (%)  OOV occurrences (%)
+train              8228       1520          18.47                 1.11
+validation         3501        200           5.71                 0.58
+test               3346        156           4.66                 0.81
+Train clauses 15837 -> 16062 | pos_weight [7.2, 7.7, 9.8, 5.6, 7.0]
+seed 42 | best epoch 15 | val macro F1 0.5646 | 536 s
+seed 1337 | best epoch 11 | val macro F1 0.5734 | 463 s
+seed 2026 | best epoch 16 | val macro F1 0.5817 | 545 s
+validation | threshold   0.5 | macro F1 0.573 ± 0.009
+validation | threshold tuned | macro F1 0.602 ± 0.009
+      test | threshold   0.5 | macro F1 0.657 ± 0.021
+      test | threshold tuned | macro F1 0.644 ± 0.010

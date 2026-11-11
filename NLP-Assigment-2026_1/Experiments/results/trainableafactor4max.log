@@ -1,0 +1,94 @@
+Device: cuda | freeze embedding: False | vocabulary: 401522
+Train clauses after A oversampling: 16062 | truncated at 150 tokens: 97
+pos_weight: {'A': 52.5, 'CH': 58.900001525878906, 'CR': 96.30000305175781, 'LTD': 30.899999618530273, 'TER': 49.5}
+
+Seed 42
+  seed 42 | epoch  1 | loss 0.8097 | val macro F1 0.2870
+  seed 42 | epoch  2 | loss 0.3419 | val macro F1 0.3040
+  seed 42 | epoch  3 | loss 0.2487 | val macro F1 0.3326
+  seed 42 | epoch  4 | loss 0.1801 | val macro F1 0.3931
+  seed 42 | epoch  5 | loss 0.1302 | val macro F1 0.3780
+  seed 42 | epoch  6 | loss 0.0982 | val macro F1 0.4770
+  seed 42 | epoch  7 | loss 0.0794 | val macro F1 0.4645
+  seed 42 | epoch  8 | loss 0.0642 | val macro F1 0.5023
+  seed 42 | epoch  9 | loss 0.0560 | val macro F1 0.5086
+  seed 42 | epoch 10 | loss 0.0457 | val macro F1 0.5303
+  seed 42 | epoch 11 | loss 0.0415 | val macro F1 0.5124
+  seed 42 | epoch 12 | loss 0.0371 | val macro F1 0.4902
+  seed 42 | epoch 13 | loss 0.0355 | val macro F1 0.5150
+  seed 42 | epoch 14 | loss 0.0309 | val macro F1 0.5196
+  seed 42 | epoch 15 | loss 0.0240 | val macro F1 0.5450
+  seed 42 | epoch 16 | loss 0.0195 | val macro F1 0.5453
+  seed 42 | epoch 17 | loss 0.0176 | val macro F1 0.5433
+  seed 42 | epoch 18 | loss 0.0197 | val macro F1 0.5268
+  seed 42 | epoch 19 | loss 0.0200 | val macro F1 0.3614
+  seed 42 | epoch 20 | loss 0.0350 | val macro F1 0.5170
+
+Seed 1337
+  seed 1337 | epoch  1 | loss 0.7965 | val macro F1 0.2671
+  seed 1337 | epoch  2 | loss 0.3482 | val macro F1 0.3064
+  seed 1337 | epoch  3 | loss 0.2487 | val macro F1 0.3371
+  seed 1337 | epoch  4 | loss 0.1828 | val macro F1 0.4361
+  seed 1337 | epoch  5 | loss 0.1379 | val macro F1 0.4438
+  seed 1337 | epoch  6 | loss 0.1298 | val macro F1 0.4024
+  seed 1337 | epoch  7 | loss 0.0899 | val macro F1 0.4461
+  seed 1337 | epoch  8 | loss 0.0733 | val macro F1 0.4585
+  seed 1337 | epoch  9 | loss 0.0621 | val macro F1 0.4588
+  seed 1337 | epoch 10 | loss 0.0488 | val macro F1 0.4789
+  seed 1337 | epoch 11 | loss 0.0495 | val macro F1 0.5021
+  seed 1337 | epoch 12 | loss 0.0466 | val macro F1 0.5148
+  seed 1337 | epoch 13 | loss 0.0399 | val macro F1 0.5011
+  seed 1337 | epoch 14 | loss 0.0336 | val macro F1 0.5290
+  seed 1337 | epoch 15 | loss 0.0280 | val macro F1 0.5244
+  seed 1337 | epoch 16 | loss 0.0238 | val macro F1 0.5295
+  seed 1337 | epoch 17 | loss 0.0213 | val macro F1 0.5399
+  seed 1337 | epoch 18 | loss 0.0185 | val macro F1 0.5353
+  seed 1337 | epoch 19 | loss 0.0154 | val macro F1 0.5295
+  seed 1337 | epoch 20 | loss 0.0137 | val macro F1 0.5331
+
+Seed 2026
+  seed 2026 | epoch  1 | loss 0.8140 | val macro F1 0.3094
+  seed 2026 | epoch  2 | loss 0.3610 | val macro F1 0.3283
+  seed 2026 | epoch  3 | loss 0.2522 | val macro F1 0.3372
+  seed 2026 | epoch  4 | loss 0.1811 | val macro F1 0.3201
+  seed 2026 | epoch  5 | loss 0.1349 | val macro F1 0.4536
+  seed 2026 | epoch  6 | loss 0.1030 | val macro F1 0.4113
+  seed 2026 | epoch  7 | loss 0.0835 | val macro F1 0.4995
+  seed 2026 | epoch  8 | loss 0.0684 | val macro F1 0.4702
+  seed 2026 | epoch  9 | loss 0.0610 | val macro F1 0.4670
+  seed 2026 | epoch 10 | loss 0.0524 | val macro F1 0.4963
+  seed 2026 | epoch 11 | loss 0.0414 | val macro F1 0.5181
+  seed 2026 | epoch 12 | loss 0.0424 | val macro F1 0.5136
+  seed 2026 | epoch 13 | loss 0.0367 | val macro F1 0.5219
+  seed 2026 | epoch 14 | loss 0.0358 | val macro F1 0.5399
+  seed 2026 | epoch 15 | loss 0.0277 | val macro F1 0.5173
+  seed 2026 | epoch 16 | loss 0.0238 | val macro F1 0.5518
+  seed 2026 | epoch 17 | loss 0.0292 | val macro F1 0.5287
+  seed 2026 | epoch 18 | loss 0.0227 | val macro F1 0.5290
+  seed 2026 | epoch 19 | loss 0.0163 | val macro F1 0.5259
+  seed 2026 | epoch 20 | loss 0.0134 | val macro F1 0.5474
+
+Validation (best epoch per seed, threshold 0.5):
+                   mean     std
+macro_precision  0.4949  0.0083
+macro_recall     0.6196  0.0252
+macro_f1         0.5457  0.0060
+f1_A             0.4015  0.0422
+f1_CH            0.5565  0.0433
+f1_CR            0.5620  0.0317
+f1_LTD           0.6264  0.0095
+f1_TER           0.5820  0.0191
+
+Test (same epochs):
+                   mean     std
+macro_precision  0.5441  0.0154
+macro_recall     0.7250  0.0191
+macro_f1         0.6180  0.0025
+f1_A             0.4713  0.0498
+f1_CH            0.7250  0.0154
+f1_CR            0.5938  0.0391
+f1_LTD           0.6237  0.0204
+f1_TER           0.6763  0.0109
+
+Total time: 1014 s
+Results saved to C:\Users\Gianmarco\Desktop\Secondo Anno- Primo Semestre\Assignment 1\Experiments\results\baseline_trainable_a4_max.json

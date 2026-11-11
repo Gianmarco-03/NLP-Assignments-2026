@@ -1,0 +1,14 @@
+Setting stacked_glove_none_nopw | device cuda
+Vocabulary 401,522 | train OOV 1520 -> composed 794, random 726
+            token types  OOV types  OOV types (%)  OOV occurrences (%)
+train              8228       1520          18.47                 1.11
+validation         3501        200           5.71                 0.58
+test               3346        156           4.66                 0.81
+Train clauses 15837 -> 15837 | pos_weight None
+seed 42 | best epoch 18 | val macro F1 0.5496 | 319 s
+seed 1337 | best epoch 15 | val macro F1 0.5446 | 343 s
+seed 2026 | best epoch 13 | val macro F1 0.5598 | 355 s
+validation | threshold   0.5 | macro F1 0.551 ± 0.008
+validation | threshold tuned | macro F1 0.575 ± 0.009
+      test | threshold   0.5 | macro F1 0.630 ± 0.038
+      test | threshold tuned | macro F1 0.645 ± 0.032

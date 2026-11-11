@@ -1,0 +1,14 @@
+Setting glove_pos3_nopw | device cuda
+Vocabulary 401,522 | train OOV 1520 -> composed 794, random 726
+            token types  OOV types  OOV types (%)  OOV occurrences (%)
+train              8228       1520          18.47                 1.11
+validation         3501        200           5.71                 0.58
+test               3346        156           4.66                 0.81
+Train clauses 15837 -> 18283 | pos_weight None
+seed 42 | best epoch  3 | val macro F1 0.5859 | 592 s
+seed 1337 | best epoch  7 | val macro F1 0.5628 | 619 s
+seed 2026 | best epoch  7 | val macro F1 0.5637 | 671 s
+validation | threshold   0.5 | macro F1 0.571 ± 0.013
+validation | threshold tuned | macro F1 0.596 ± 0.026
+      test | threshold   0.5 | macro F1 0.628 ± 0.060
+      test | threshold tuned | macro F1 0.597 ± 0.060

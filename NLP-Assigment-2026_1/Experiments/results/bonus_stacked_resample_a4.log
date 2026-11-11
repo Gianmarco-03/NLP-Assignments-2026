@@ -1,0 +1,14 @@
+Setting stacked_glove_a4_pw | device cuda
+Vocabulary 401,522 | train OOV 1520 -> composed 794, random 726
+            token types  OOV types  OOV types (%)  OOV occurrences (%)
+train              8228       1520          18.47                 1.11
+validation         3501        200           5.71                 0.58
+test               3346        156           4.66                 0.81
+Train clauses 15837 -> 16062 | pos_weight [52.5, 58.9, 96.3, 30.9, 49.5]
+seed 42 | best epoch 12 | val macro F1 0.5591 | 337 s
+seed 1337 | best epoch 18 | val macro F1 0.5542 | 344 s
+seed 2026 | best epoch 14 | val macro F1 0.5275 | 336 s
+validation | threshold   0.5 | macro F1 0.547 ± 0.017
+validation | threshold tuned | macro F1 0.574 ± 0.016
+      test | threshold   0.5 | macro F1 0.604 ± 0.029
+      test | threshold tuned | macro F1 0.612 ± 0.025
